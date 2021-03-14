@@ -76,6 +76,20 @@ using FinalProjectTimetable.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\_Imports.razor"
+using Telerik.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\_Imports.razor"
+using Telerik.Blazor.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\Pages\FetchData.razor"
 using FinalProjectTimetable.Data;
 

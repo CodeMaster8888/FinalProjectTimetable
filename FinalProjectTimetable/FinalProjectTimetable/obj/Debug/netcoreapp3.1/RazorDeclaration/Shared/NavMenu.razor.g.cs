@@ -75,6 +75,20 @@ using FinalProjectTimetable.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\_Imports.razor"
+using Telerik.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\_Imports.razor"
+using Telerik.Blazor.Components;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
