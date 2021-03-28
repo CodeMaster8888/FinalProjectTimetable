@@ -1,15 +1,13 @@
-using FinalProjectTimetable.Data;
+using Database.Context;
+using FinalProjectTimetable.Controllers;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Services;
+using Services.Configuration;
 
 namespace FinalProjectTimetable
 {
@@ -28,8 +26,21 @@ namespace FinalProjectTimetable
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddTelerikBlazor();
+
+            services.AddTransient<ILoginManager,LoginManager>();
+            services.AddTransient<IUserContext, UserContext>();
+            services.AddTransient<LoginController>();
+            services.AddTransient<AppSettingsRoot>();
+
+            var configSection = Configuration.GetSection("TimetableConfiguration");
+
+            services.Configure<AppSettingsRoot>(configSection);
+
+            var applicationSettings = configSection.Get<AppSettingsRoot>();
+
+            services.AddDbContext<TimetableContext>(options
+                => options.UseSqlServer(applicationSettings.ConnectionStrings.Timetable));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

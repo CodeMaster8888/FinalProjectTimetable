@@ -1,0 +1,33 @@
+﻿@page "/Login"
+@using FinalProjectTimetable.Data
+@using FinalProjectTimetable.Controllers
+@inject LoginController controller
+@inject NavigationManager NavManager
+<link rel="stylesheet" type="text/css" href="~/css/Login.css" media="screen" />
+
+<EditForm Model="@user" OnValidSubmit=@GetLogin>
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="Username">Username</label>
+        <InputText id="Username" class="form-control" @bind-Value="user.Username" />
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <InputTextArea id="Password" class="form-control" @bind-Value="user.Password" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Login</button>
+    <NavLink href="register" class="btn btn-link">Register</NavLink>
+</EditForm>
+
+@code {
+    private AuthenticateLogin user = new AuthenticateLogin();
+
+    private void GetLogin(){
+        var correctLogin = controller.Authenticate(user);
+        NavManager.NavigateTo("/");
+    }
+}

@@ -3,7 +3,23 @@
 <h1>Hello, worl</h1>
 
 <TelerikButton>Say Hello</TelerikButton>
+<br />
 
-Welcome to your new app.
+<TelerikCalendar Min="@min" Max="@max" ValueChanged="@MyValueChangeHandler" @bind-Date="@theDate">
+</TelerikCalendar>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<br />
+The selected date is: @selectedDate
+
+@code {
+
+    private DateTime min = new DateTime(2015, 1, 1);
+    private DateTime max = new DateTime(2025, 12, 31);
+    private DateTime theDate { get; set; } = DateTime.Now;
+    private string selectedDate = "";
+
+    private void MyValueChangeHandler(DateTime newValue)
+    {
+        selectedDate = newValue.ToString("dd MMM yyyy");
+    }
+}

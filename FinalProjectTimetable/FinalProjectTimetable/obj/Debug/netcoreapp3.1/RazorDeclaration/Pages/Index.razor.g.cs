@@ -97,6 +97,23 @@ using Telerik.Blazor.Components;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 14 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\Pages\Index.razor"
+       
+
+    private DateTime min = new DateTime(2015, 1, 1);
+    private DateTime max = new DateTime(2025, 12, 31);
+    private DateTime theDate { get; set; } = DateTime.Now;
+    private string selectedDate = "";
+
+    private void MyValueChangeHandler(DateTime newValue)
+    {
+        selectedDate = newValue.ToString("dd MMM yyyy");
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

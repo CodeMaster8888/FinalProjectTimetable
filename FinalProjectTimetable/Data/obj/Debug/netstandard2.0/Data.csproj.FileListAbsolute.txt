@@ -1,0 +1,9 @@
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\bin\Debug\netstandard2.0\Data.deps.json
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\bin\Debug\netstandard2.0\Data.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\bin\Debug\netstandard2.0\Data.pdb
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\obj\Debug\netstandard2.0\Data.AssemblyInfoInputs.cache
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\obj\Debug\netstandard2.0\Data.AssemblyInfo.cs
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\obj\Debug\netstandard2.0\Data.csproj.CoreCompileInputs.cache
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\obj\Debug\netstandard2.0\Data.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\obj\Debug\netstandard2.0\Data.pdb
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Data\obj\Debug\netstandard2.0\Data.csprojAssemblyReference.cache

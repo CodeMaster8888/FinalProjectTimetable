@@ -1,0 +1,15 @@
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Database.deps.json
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Database.runtimeconfig.json
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Database.runtimeconfig.dev.json
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Database.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Database.pdb
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Data.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\bin\Debug\netcoreapp3.1\Data.pdb
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.csproj.CopyComplete
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.pdb
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\Database\obj\Debug\netcoreapp3.1\Database.genruntimeconfig.cache
