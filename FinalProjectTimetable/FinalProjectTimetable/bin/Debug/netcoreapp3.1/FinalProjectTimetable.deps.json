@@ -30,6 +30,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.4",
           "Microsoft.EntityFrameworkCore.Design": "5.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
+          "Semantic-UI-2.0": "2.1.0",
           "Services": "1.0.0",
           "Telerik.UI.for.Blazor.Trial": "2.22.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -328,6 +329,7 @@
           }
         }
       },
+      "jQuery/1.8.1": {},
       "Microsoft.AspNetCore.Authorization/3.1.13": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "3.1.13",
@@ -974,6 +976,11 @@
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
           }
+        }
+      },
+      "Semantic-UI-2.0/2.1.0": {
+        "dependencies": {
+          "jQuery": "1.8.1"
         }
       },
       "System.CodeDom/4.7.0": {
@@ -1749,6 +1756,9 @@
         }
       },
       "Data/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "runtime": {
           "Data.dll": {}
         },
@@ -3346,6 +3356,13 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "jQuery/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+dGEMmh3/iZiF6dLUtyjjDCGnnhtTBlUrTDHcZ1RJIdnmOnNzGjs77r9iigXGkiOfXYU5E+tpU/nyK1pzGqiHA==",
+      "path": "jquery/1.8.1",
+      "hashPath": "jquery.1.8.1.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authorization/3.1.13": {
       "type": "package",
       "serviceable": true,
@@ -3702,6 +3719,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Semantic-UI-2.0/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9YwDSGQvFXr76t1/LdUabgXj/ZtkQSRwlKWn4hOR8PpraNujRuB3tUBCZqFZSz3mfyPC5zIJ6TkMqKtO+zuUA==",
+      "path": "semantic-ui-2.0/2.1.0",
+      "hashPath": "semantic-ui-2.0.2.1.0.nupkg.sha512"
     },
     "System.CodeDom/4.7.0": {
       "type": "package",

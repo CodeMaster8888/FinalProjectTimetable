@@ -1,3 +1,7 @@
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\Telerik.Zip.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.TagHelpers.output.cache
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\appsettings.Development.json
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\appsettings.json
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\FinalProjectTimetable.StaticWebAssets.xml
@@ -62,10 +66,8 @@ H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\De
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\Telerik.Documents.SpreadsheetStreaming.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\Telerik.Recurrence.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\Telerik.Blazor.dll
-H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\Telerik.Zip.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
@@ -95,6 +97,7 @@ H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\De
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Register.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -103,11 +106,11 @@ H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\De
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.RazorComponent.output.cache
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\FinalProjectTimetable.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.TagHelpers.input.cache
-H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.TagHelpers.output.cache
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.RazorCoreGenerate.cache
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Pages\Register.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -124,8 +127,7 @@ H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\De
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.RazorTargetAssemblyInfo.cs
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.Views.pdb
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.csproj.CopyComplete
-H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.dll
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.pdb
 H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\FinalProjectTimetable.genruntimeconfig.cache
-H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Register.razor.g.cs
-H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Pages\Register.razor.g.cs
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddTimetableItem.razor.g.cs
+H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\obj\Debug\netcoreapp3.1\Razor\Pages\AddTimetableItem.razor.g.cs

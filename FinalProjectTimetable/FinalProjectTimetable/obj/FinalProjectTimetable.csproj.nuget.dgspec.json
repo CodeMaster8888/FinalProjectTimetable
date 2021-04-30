@@ -135,6 +135,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -219,6 +223,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Semantic-UI-2.0": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             },
             "Telerik.UI.for.Blazor.Trial": {
               "target": "Package",

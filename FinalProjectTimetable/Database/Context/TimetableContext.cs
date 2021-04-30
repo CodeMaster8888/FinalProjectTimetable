@@ -13,5 +13,6 @@ namespace Database.Context
         { }
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Timetable> Timetables { get; set; }
     }
 }

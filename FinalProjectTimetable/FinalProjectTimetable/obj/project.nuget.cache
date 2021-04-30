@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xlR9c4+aZshScs/u8YaibYNkBAmk7cnI0zbOcE4u0QH4EqPo7IjWcePqO6mJdOHd61VULBkI8bkVDzcRoEM+RA==",
+  "dgSpecHash": "S6WY7b1e8xESirp310OwwfUGgz26BGkpg7yUXzEYcgbC8zH7Jsscn9mB+j8tx5bTe+UBi/WAVRVDDKlb30Ml8w==",
   "success": true,
   "projectFilePath": "H:\\Work\\FinalProjectTimetable\\FinalProjectTimetable\\FinalProjectTimetable\\FinalProjectTimetable.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Haris\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Haris\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Haris\\.nuget\\packages\\jquery\\1.8.1\\jquery.1.8.1.nupkg.sha512",
     "C:\\Users\\Haris\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.13\\microsoft.aspnetcore.authorization.3.1.13.nupkg.sha512",
     "C:\\Users\\Haris\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.13\\microsoft.aspnetcore.components.3.1.13.nupkg.sha512",
     "C:\\Users\\Haris\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.13\\microsoft.aspnetcore.components.analyzers.3.1.13.nupkg.sha512",
@@ -57,6 +58,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Haris\\.nuget\\packages\\semantic-ui-2.0\\2.1.0\\semantic-ui-2.0.2.1.0.nupkg.sha512",
     "C:\\Users\\Haris\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

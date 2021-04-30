@@ -1,5 +1,6 @@
 using Database.Context;
 using FinalProjectTimetable.Controllers;
+using FinalProjectTimetable.FrontEndData;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -29,9 +30,13 @@ namespace FinalProjectTimetable
             services.AddTelerikBlazor();
 
             services.AddTransient<ILoginManager,LoginManager>();
+            services.AddTransient<ITimetableManager, TimetableManager>();
+            services.AddTransient<ITimetableItemContext, TimetableItemContext>();
             services.AddTransient<IUserContext, UserContext>();
             services.AddTransient<LoginController>();
+            services.AddTransient<TimetableService>();
             services.AddTransient<AppSettingsRoot>();
+
 
             var configSection = Configuration.GetSection("TimetableConfiguration");
 

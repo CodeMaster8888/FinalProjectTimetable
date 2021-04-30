@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FinalProjectTimetable.Data
+namespace FinalProjectTimetable.FrontEndData
 {
-    public class AuthenticateLogin
+    public class RegisterModel
     {
         [Required]
         public string Username { get; set; }

@@ -1,17 +1,10 @@
 ﻿using Data;
-using FinalProjectTimetable.Data;
+using FinalProjectTimetable.FrontEndData;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using Services;
 using Services.Configuration;
 using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinalProjectTimetable.Controllers
 {
@@ -33,14 +26,14 @@ namespace FinalProjectTimetable.Controllers
 
         [AllowAnonymous]
         [HttpPost("/authenticate")]
-        public IActionResult Authenticate(AuthenticateLogin authenticateLogin)
+        public User Authenticate(AuthenticateLogin authenticateLogin)
         {
             var user = _loginManager.Authenticate(authenticateLogin.Username, authenticateLogin.Password);
 
             if (user == null)
-                return BadRequest(new { message = "Username or password is incorrect" });
+                return null;
 
-            return Ok();
+            return user;
         }
 
         [AllowAnonymous]

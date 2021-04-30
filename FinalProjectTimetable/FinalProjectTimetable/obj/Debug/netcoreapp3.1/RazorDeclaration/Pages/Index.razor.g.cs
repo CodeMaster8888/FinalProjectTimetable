@@ -55,13 +55,6 @@ using Microsoft.AspNetCore.Components.Web;
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\_Imports.razor"
-using Microsoft.JSInterop;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 8 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\_Imports.razor"
 using FinalProjectTimetable;
 
@@ -89,6 +82,20 @@ using Telerik.Blazor.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\Pages\Index.razor"
+using Microsoft.JSInterop;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\Pages\Index.razor"
+using FinalProjectTimetable.Data;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,22 +105,37 @@ using Telerik.Blazor.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\Pages\Index.razor"
+#line 52 "H:\Work\FinalProjectTimetable\FinalProjectTimetable\FinalProjectTimetable\Pages\Index.razor"
        
-
     private DateTime min = new DateTime(2015, 1, 1);
     private DateTime max = new DateTime(2025, 12, 31);
     private DateTime theDate { get; set; } = DateTime.Now;
     private string selectedDate = "";
+    private Timetable timetable { get; set; }
+
+    protected async override void OnAfterRender(bool firstRender)
+    {
+        var test = service.GetTimetable();
+
+        await JS.InvokeVoidAsync("Calendar", test);
+    }
 
     private void MyValueChangeHandler(DateTime newValue)
     {
         selectedDate = newValue.ToString("dd MMM yyyy");
     }
 
+    private void redirectCreate()
+    {
+        NavManager.NavigateTo("/AddTimetableItem");
+    }
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private TimetableService service { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JS { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
     }
 }
 #pragma warning restore 1591

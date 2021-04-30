@@ -116,16 +116,20 @@ using FinalProjectTimetable.Controllers;
        
     private AuthenticateLogin user = new AuthenticateLogin();
 
-    private void GetLogin(){
-        var correctLogin = controller.Authenticate(user);
-        NavManager.NavigateTo("/");
+    private void GetLogin()
+    {
+        service.Authenticate(user);
+        if(service.User != null)
+        {
+            NavManager.NavigateTo("/");
+        }
     }
 
 #line default
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private LoginController controller { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private LoginController service { get; set; }
     }
 }
 #pragma warning restore 1591
