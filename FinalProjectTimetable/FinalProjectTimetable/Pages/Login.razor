@@ -1,7 +1,7 @@
 ﻿@page "/Login"
-@using FinalProjectTimetable.Data
+@using FinalProjectTimetable.FrontEndData
 @using FinalProjectTimetable.Controllers
-@inject LoginController controller
+@inject LoginController service
 @inject NavigationManager NavManager
 <link rel="stylesheet" type="text/css" href="~/css/Login.css" media="screen" />
 
@@ -26,8 +26,12 @@
 @code {
     private AuthenticateLogin user = new AuthenticateLogin();
 
-    private void GetLogin(){
-        var correctLogin = controller.Authenticate(user);
-        NavManager.NavigateTo("/");
+    private void GetLogin()
+    {
+        service.Authenticate(user);
+        if(service.User != null)
+        {
+            NavManager.NavigateTo("/");
+        }
     }
 }

@@ -1,25 +1,75 @@
 ﻿@page "/"
+@using Microsoft.JSInterop
+@using FinalProjectTimetable.FrontEndData
+@inject NavigationManager NavManager
+@inject IJSRuntime JS
+@inject TimetableService service 
 
-<h1>Hello, worl</h1>
-
-<TelerikButton>Say Hello</TelerikButton>
+<div class="ui calendar" id="calender"></div>
 <br />
 
-<TelerikCalendar Min="@min" Max="@max" ValueChanged="@MyValueChangeHandler" @bind-Date="@theDate">
-</TelerikCalendar>
+<div class="ui container">
+
+    <div class="ui menu">
+        <div class="header item">Brand</div>
+        <a class="active item">Link</a>
+        <a class="item">Link</a>
+        <div class="ui dropdown item">
+            Dropdown
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="item">Action</div>
+                <div class="item">Another Action</div>
+                <div class="item">Something else here</div>
+                <div class="divider"></div>
+                <div class="item">Separated Link</div>
+                <div class="divider"></div>
+                <div class="item">One more separated link</div>
+            </div>
+        </div>
+        <div class="right menu">
+            <div class="item">
+                <div class="ui action left icon input">
+                    <i class="search icon"></i>
+                    <input type="text" placeholder="Search">
+                    <button class="ui button">Submit</button>
+                </div>
+            </div>
+            <a class="item">Link</a>
+        </div>
+    </div>
+</div>
 
 <br />
-The selected date is: @selectedDate
+<div class="ui container">
+    <div class="ui grid">
+        <div class="ui sixteen column">
+            <div id="calendar"></div>
+        </div>
+    </div>
+</div>
 
 @code {
-
     private DateTime min = new DateTime(2015, 1, 1);
     private DateTime max = new DateTime(2025, 12, 31);
     private DateTime theDate { get; set; } = DateTime.Now;
     private string selectedDate = "";
+    private Timetable timetable { get; set; }
+
+    protected async override void OnAfterRender(bool firstRender)
+    {
+        var test = service.GetTimetableView(1);
+
+        await JS.InvokeVoidAsync("Calendar", test);
+    }
 
     private void MyValueChangeHandler(DateTime newValue)
     {
         selectedDate = newValue.ToString("dd MMM yyyy");
+    }
+
+    private void redirectCreate()
+    {
+        NavManager.NavigateTo("/AddTimetableItem");
     }
 }

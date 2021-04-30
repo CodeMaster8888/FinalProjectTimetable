@@ -1,0 +1,37 @@
+﻿@page "/AddTimetableItem"
+@using FinalProjectTimetable.Data;
+@inject TimetableService timetableService;
+
+<h3>AddTimetableItem</h3>
+
+<EditForm Model="@timetableItem" OnValidSubmit=@addTimetable>
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <InputText id="Username" class="form-control" @bind-Value="timetableItem.Name" />
+    </div>
+
+    <div class="form-group">
+        <label for="Date">Date</label>
+        <InputDate id="Date" class="form-control" @bind-Value="timetableItem.Date" />
+    </div>
+
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <InputText id="Username" class="form-control" @bind-Value="timetableItem.Description" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Login</button>
+    <NavLink href="register" class="btn btn-link">Register</NavLink>
+</EditForm>
+
+@code {
+    TimetableItem timetableItem = new TimetableItem();
+
+    public void addTimetable()
+    {
+        timetableService.AddDate(timetableItem);
+    }
+}
