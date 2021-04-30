@@ -1,6 +1,6 @@
 ﻿@page "/AddTimetableItem"
-@using FinalProjectTimetable.Data;
-@inject TimetableService timetableService;
+@using FinalProjectTimetable.FrontEndData
+@inject TimetableService timetableService
 
 <h3>AddTimetableItem</h3>
 
@@ -15,7 +15,7 @@
 
     <div class="form-group">
         <label for="Date">Date</label>
-        <InputDate id="Date" class="form-control" @bind-Value="timetableItem.Date" />
+        <InputDate id="Date" class="form-control" @bind-Value="timetableItem.StartDate" />
     </div>
 
     <div class="form-group">
@@ -32,6 +32,6 @@
 
     public void addTimetable()
     {
-        timetableService.AddDate(timetableItem);
+        //timetableService.AddDate(timetableItem);
     }
 }

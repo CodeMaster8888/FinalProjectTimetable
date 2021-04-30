@@ -20,9 +20,12 @@ namespace FinalProjectTimetable.FrontEndData
         {
             var timetable = _timetableManager.GetTimetable(userId);
 
-            var calendar = _timetableManager.ConvertTimetable(timetable);
+            if(timetable == null)
+            {
+                return null;
+            }
 
-            return calendar;
+            return _timetableManager.ConvertTimetable(timetable);
         }
 
         public void AddDate(TimetableItem timetableItem, int userId)

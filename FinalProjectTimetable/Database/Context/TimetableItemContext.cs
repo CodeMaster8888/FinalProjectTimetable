@@ -17,14 +17,14 @@ namespace Database.Context
 
         public Timetable GetTimetable(int userId)
         {
-            var test = _context.Timetables.SingleOrDefault(x => x.UserId == userId);
+            var test = _context.Timetable.SingleOrDefault(x => x.UserId == userId);
 
             return test;
         }
 
         public void AddTimetableItem(Timetable timetable)
         {
-            _context.Timetables.Add(timetable);
+            _context.Timetable.Add(timetable);
             _context.SaveChanges();
         }
     }
